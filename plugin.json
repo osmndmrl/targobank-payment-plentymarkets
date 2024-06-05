@@ -1,5 +1,5 @@
 {
-    "name": "PaymentMethod",
+    "name": "TargobankPaymentMethod",
     "version": "1.0.0",
     "pluginKey": "PaymentMethod",
     "namespace": "PaymentMethod",
