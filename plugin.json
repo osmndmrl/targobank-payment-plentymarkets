@@ -1,0 +1,16 @@
+{
+    "name": "PaymentMethod",
+    "version": "1.0.0",
+    "pluginKey": "PaymentMethod",
+    "namespace": "PaymentMethod",
+    "author": "Osman Demirel",
+    "shortDescription": "Example payment method plugin",
+    "description": "A simple payment method plugin for plentymarkets",
+    "requires": [],
+    "serviceProvider": "PaymentMethod\\Providers\\PaymentMethodServiceProvider",
+    "routeServiceProvider": "PaymentMethod\\Providers\\PaymentMethodRouteServiceProvider",
+    "runOnBuild": [
+      "PaymentMethod\\Migrations\\CreatePaymentMethod"
+    ]
+  }
+  
